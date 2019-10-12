@@ -4,7 +4,7 @@ for t in range(T)
     a=list(map(int,input().split()))
     count=1
     for i in range(5,n):
-        check=0;
+        check=1;
         for j in range(i-1,i-6,-1):
             if a[i]<a[j]:
                 check+=1
