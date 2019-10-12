@@ -19,3 +19,4 @@ for t in range(T)
     if(a[4]<a[0] and a[4]<a[1] and a[4]<a[2] and a[4]<a[3]):
         count+=1
 print(count)
+//comment
